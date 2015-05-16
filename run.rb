@@ -7,6 +7,8 @@ sleep (1)
 user_choice = gets.chomp
 #instructions fot the user
 puts "the rules of the game are easy, just type in your answer to procced to the next part of your adventure"
+puts "if you understand, type yes and click enter"
+user_choice == "yes"
 #beginning of the adventure
 puts "You start an adventure in a dense forrest, you are searching for the princess of your kingdom"
 sleep (2)
