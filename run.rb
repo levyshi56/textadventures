@@ -13,5 +13,6 @@ user_choice == "yes"
 puts "You start an adventure in a dense forrest, you are searching for the princess of your kingdom"
 sleep (2)
 puts "You walk into the forrest and you come across a fork in the road, do you go left or right?"
-
+if user_choice == "left"
+  puts "you encounter a wild boar"
   
